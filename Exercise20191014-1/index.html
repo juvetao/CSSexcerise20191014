@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+        <form id="form" action="http://www.somesite.com/somedoc.php">
+            <label style="font-size: 15px" for = "First Name">First Name:</label>
+            <input type="text" name="First Name" /> <br />
+            
+            <label style="font-size: 15px" for = "Last Name">Last Name:</label>
+            <input type="text" name="Last Name" /> <br />
+            
+            <label style="font-size: 15px" for = "Gender">Gender:</label>
+            <input type="radio" name="Gender" value="Male" checked = "checked" /> Male
+            <input type="radio" name="Gender" value="Female"/> Female <br />
+            
+            <label style="font-size: 15px" for = "Pet">Pet:</label>
+            <input type="checkbox" name="Pet" value="Cat" checked="checked" /> Cat
+            <input type="checkbox" name="Pet" value="Dog" checked="checked" /> Dog
+            <input type="checkbox" name="Pet" vlaue="Rabbit" /> Rabbit <br />
+            
+            <label style="font-size: 15px" for="Address">Address:</label>
+            <input type="text" name="Address" /> <br />
+            
+            <label type="font-size: 15px" for="Country">Country</label>
+            <select name="Country">
+                <option value="China">China</option>
+                <option value="USA">USA</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Danmark">Danmark</option>
+                <option value="Norway">Norway</option>
+                <option value="Finland">Finland</option>
+            </select>
+            
+            <p style="font-size: 15px">Upload your profile <picture></picture></p>
+            <input type="file" name="user-profile" /><br />
+            <input id="button" type="submit" value="Upload" /> <br />
+
+            <label style="font-size: 15px" for = "Email">Email:</label>
+            <input type="email" name="email" placeholder="Email..." /><br />
+
+            <label style="font-size: 15px" for = "Password">Password:</label>
+            <input type="password" name="password"><br />
+
+            <input id="button" type="submit" name="submit" value="Sumbit" />
+        </form>
+    </div>   
+</body>
+</html>
